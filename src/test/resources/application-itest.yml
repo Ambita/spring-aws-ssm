@@ -1,0 +1,7 @@
+spring:
+  main:
+    web-application-type: none
+
+myconfig:
+  from-yaml: From the application.yaml file
+  from-ssm: This should be overriden from ssm

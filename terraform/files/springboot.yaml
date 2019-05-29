@@ -1,0 +1,2 @@
+myconfig:
+  from-ssm: This comes from SSM as it should
