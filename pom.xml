@@ -4,7 +4,7 @@
 
   <groupId>com.ambita</groupId>
   <artifactId>spring-aws-ssm</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Spring AWS SSM plugin</name>
   <description>A plugin to Spring Boot, which allows adding properties from AWS's SSM</description>
   <url>https://github.com/Ambita/spring-aws-ssm</url>
@@ -39,6 +39,7 @@
     <connection>scm:git:git://github.com/ambita/spring-aws-ssm.git</connection>
     <developerConnection>scm:git:ssh://github.com/ambita/spring-aws-ssm.git</developerConnection>
     <url>https://github.com/Ambita/spring-aws-ssm</url>
+    <tag>spring-aws-ssm-1.0.0</tag>
   </scm>
 
   <distributionManagement>
