@@ -277,7 +277,7 @@
       </build>
     </profile>
     <profile>
-      <id>sign</id>
+      <id>release</id>
       <build>
         <plugins>
           <plugin>
@@ -293,6 +293,14 @@
                 </goals>
               </execution>
             </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.5.3</version>
+            <configuration>
+              <pushChanges>false</pushChanges>
+            </configuration>
           </plugin>
         </plugins>
       </build>
