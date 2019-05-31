@@ -41,6 +41,20 @@
     <url>https://github.com/Ambita/spring-aws-ssm</url>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <name>releases</name>
+      <url>${releases.url}</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>snapshots</name>
+      <url>${snapshots.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
