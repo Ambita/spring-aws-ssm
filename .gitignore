@@ -4,3 +4,5 @@ target/
 /tmp/
 .*.swp
 .terraform
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup

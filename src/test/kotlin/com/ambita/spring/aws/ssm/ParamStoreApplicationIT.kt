@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
 import org.springframework.boot.SpringApplication
 
-class ParamStoreApplicationTest {
+class ParamStoreApplicationIT {
 
     @AfterEach
     fun afterEach() {
